@@ -1,0 +1,14 @@
+/* Love icon animation using 'I love you' */
+#ui .love_word{
+  color: #ea8b0;
+  font-size: 1.4rem;
+  transform: translateY(-100%) rotateZ(-30deg);
+  text-shadow: 0 0 10px #ffffff;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+#ui .love_horizontal{
+  animation: horizontal 1000ms
+    infinite alternate ease-in-out;
+  animation-delay: calc(var(--i) * -300ms);
+}
