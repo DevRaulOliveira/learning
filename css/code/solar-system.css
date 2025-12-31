@@ -1,0 +1,15 @@
+/* Solar system animation */
+.solar_system {
+  transform-style: preserve-3d;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.solar_system .planet_description a{
+  color: #fea882;
+  padding: 0 2px 0px;
+  border-bottom: 2px solid;
+  transition: all 0.2s;
+}
