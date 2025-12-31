@@ -1,0 +1,12 @@
+/* bat animation sample */
+.bat {
+  width: 1px;
+  height: 1px;
+  postion: relative;
+  transform: translate(-128px, -128px) scale(4);
+}
+@keyframes flap {
+  to {
+    background-position: -192px 0;
+  }
+}
