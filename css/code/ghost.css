@@ -1,0 +1,15 @@
+/* Ghost animations*/
+.ghost {
+  postion: relative;
+  box-shadow: -17px 0px 0 px $grey
+    inset, 0 0 50px #5939db;
+  border-radius: 100px 100px 0 0;
+  animation: float 2s infinite;
+}
+
+.shadow {
+  background: $shadow;
+  margin-top: 50px;
+  border-radius: 50%
+  animation: shadow 2s infinite;
+}
