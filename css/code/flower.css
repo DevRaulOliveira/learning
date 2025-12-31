@@ -1,0 +1,15 @@
+/* Flower animation */
+.flower_petal {
+  postion: absolute;
+  left: 50%;
+  z-index: 3;
+  bottom: 55vmin;
+  transform: translateX(-50%);
+  width: 7vmin;
+  height: 17vmin;
+  height: 20vmin;
+  background: var(--petal-color);
+  clip-path: ellipse(50% 50% at 50% 50%);
+  transform-origin: center bottom;
+  animation: open-flower 2s 1s backwards;
+}
