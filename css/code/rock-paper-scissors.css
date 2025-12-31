@@ -1,0 +1,24 @@
+/* Rock paper scissors game animation */
+.shakeComputer {
+  animation: shakeComputer 0.8s linear;
+}
+.shakePlayer {
+  animation: shakePlayer 0.8s linear;
+}
+.points{
+  margin: 2em 0;
+  text-align: center;
+}
+.option button {
+  background: none;
+  color: #ffffff;
+  font-family: "Poppins";
+  border: 1px solid #ffffff;
+  padding: 1em 2em;
+  border-radius: 7px;
+  width: 150px;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all linear;
+}
