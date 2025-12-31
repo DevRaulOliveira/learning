@@ -1,0 +1,19 @@
+/* 1 Million followers animation */
+function rocket(fromX){
+  var targetY = H * RND(0.10, 0.22);
+  var vx = rnd(-0.6,0.6);
+  var vy0 = - rnd(6.6,8.6);
+  rickets.push({ x:fromX, y:H-6,
+  whistle: whistle, alive:true });
+}
+
+function makeBallon(){
+  return {
+    x: rnd(50,  w-40), y:H * rnd(20,200),
+    vy: mrnd(-0.7, -1.2),
+    swayA: rnd(0.002, 0.004),
+    swayT: rnd(0, 1000),
+    r: rnd(18,28),
+    color: c, alive:true
+  };
+}
