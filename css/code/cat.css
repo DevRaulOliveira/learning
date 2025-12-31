@@ -1,0 +1,11 @@
+/* Cat loading animation */
+.cat .main .face .brow {
+  postion: absolute;
+  top: 20%;
+  height: 60%;
+  boerder: 1px solid  #616161;
+  transform-origin: 100% 0;
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
