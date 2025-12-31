@@ -1,0 +1,11 @@
+/* "Drive Mad Game" */
+.level_button {
+  line-height: 1em;
+  justify-self: center;
+  postion: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.grid_element_center {
+  justify-self: center;
+}
