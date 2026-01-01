@@ -1,0 +1,35 @@
+{
+  "spark_cong.spark.databricks.cluster.profile": {
+    "type": "fixed",
+    "value": "singleNode",
+    "hidden":true
+  },
+  "spark_version": {
+    "type":"fixed",
+    "value":"15.5.x-scala2.12"
+  },
+  "node_type_id": {
+    "type":"whitelist",
+    "values": [
+      "i3.xlarge",
+      "i3.2xlarge",
+      "i3.4xlarge",
+    ],
+    "defaultValue":"i3.2xlarge"
+  },
+  "autotermination_minutes": {
+    "type":"fixed",
+    "value":"120",
+    "hidden":true
+  },
+  "num_workers": {
+    "type":"fixed",
+    "value":0,
+    "hidden":true
+  },
+  "data_security_mode": {
+    "type":"fixed",
+    "value":"SINGLE_USER",
+    "hidden": true
+  }
+}
